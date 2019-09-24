@@ -1,0 +1,10 @@
+@import "../node_modules/reset-css/sass/reset";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "core/variables";
+@import "blocks/ocean";
+@import "blocks/navbar";
+
+html, body {
+    height: 100vh;
+    width: 100%;
+}

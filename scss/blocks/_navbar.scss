@@ -1,0 +1,18 @@
+.navbar {
+
+    .navbar-brand {
+        transition: 0.2s color ease-in-out;
+
+        &:hover {
+            color: $firstColor;
+        }
+    }
+
+    &__logo {
+        width: 30px;
+        height: 30px;
+        background: url('../../access/img/navbar/logo.jpg') center center / cover; 
+        border-radius: 50%;
+        box-sizing: content-box;
+    }
+}
